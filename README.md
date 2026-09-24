@@ -1,28 +1,110 @@
-# BigBasket-SQL-Data-Analysis
+# BigBasket E-Commerce Data Analysis
+
 # Project Overview
-SQL-based analysis of BigBasket product data to identify pricing, ratings, discounts, and product-level business insights.
 
-# Dataset
-The dataset contains 27,000+ product records with information such as Product, Category, Brand, Sale Price, Market Price, Rating, and Product Type.
+This project analyzes BigBasket e-commerce product data using SQL and Microsoft Power BI to uncover insights related to products, categories, brands, pricing, discounts, and ratings.
 
-# Tools
+The project combines SQL-based data analysis with an interactive Power BI dashboard to present data-driven business insights.
+
+Dataset
+
+The dataset contains product-level information including:
+
+* Product
+* Category
+* Subcategory
+* Brand
+* Sale Price
+* Market Price
+* Type
+* Rating
+
+SQL Analysis
+
+SQL was used to perform data analysis and answer business-related questions such as:
+
+* Product and category analysis
+* Brand performance
+* Product ratings
+* Pricing analysis
+* Discount analysis
+* Top-performing products and brands
+
+SQL concepts used include:
+
+* SELECT, WHERE
+* GROUP BY, HAVING
+* JOINs
+* CASE statements
+* Subqueries
+* Aggregate Functions
+* Window Functions
+* CTEs
+
+Power BI Dashboard
+
+An interactive Power BI dashboard was added to the project to visualize the SQL analysis and provide a more user-friendly view of the data.
+
+Dashboard Pages
+
+Page 1 – Executive Overview
+
+* Total Products
+* Total Brands
+* Average Sale Price
+* Average Discount %
+* Products by Category
+* Top 10 Brands by Product Count
+* Average Sale Price by Category
+* Rating Distribution
+
+Page 2 – Pricing & Discount Analysis
+
+* Average Discount %
+* Maximum Discount %
+* Average Market Price
+* Category-wise Average Discount
+* Top 10 Most Discounted Products
+* Market Price vs Sale Price
+* Average Market Price vs Average Sale Price by Category
+* Discount Distribution
+
+Page 3 – Product, Brand & Rating Insights
+
+* Average Rating
+* Total Categories
+* Top 10 Brands by Average Rating
+* Products by Subcategory
+* Average Rating by Category
+* Product Price Distribution
+* Product Details
+
+Tools & Technologies
+
 * MySQL
-* SQL
-* MySQL Workbench
+* Microsoft Power BI
+* Power Query
+* DAX
 
-# Key Analysis
-* Average sale price by category
-* Highest-rated products by category
-* Most expensive products by brand
-* Products above average price
-* Brand-wise average rating
-* Budget, Mid-Range & Premium classification
-* High, Medium & Low rating classification
-* Top 3 discounted products by category
+Skills Demonstrated
 
-# SQL Concepts Used
-SELECT, WHERE, GROUP BY, HAVING, CASE, Subqueries, CTEs, Aggregate Functions, and Window Functions.
-# Project Files
+* SQL Data Analysis
+* Data Cleaning & Transformation
+* Power Query
+* DAX
+* KPI Development
+* Data Visualization
+* Business Analysis
+* Dashboard Development
 
-* BigBasket_Analysis_sql queries.sql
-* screenshots/ — Query and result screenshots
+Power BI Dashboard Preview
+
+Executive Overview
+
+Pricing & Discount Analysis
+
+Product, Brand & Rating Insights
+
+Conclusion
+
+This project demonstrates an end-to-end data analysis workflow, from SQL-based analysis to interactive Power BI dashboard development, providing insights into BigBasket’s products, pricing, discounts, brands, categories, and ratings.
